@@ -1,0 +1,14 @@
+{
+  "env": {
+    "MAX_THINKING_TOKENS": "32000"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(./hack/spec_metadata.sh)",
+      "Bash(hack/spec_metadata.sh)",
+      "Bash(bash hack/spec_metadata.sh)",
+      "Bash(npx tsc --noEmit)"
+    ]
+  },
+  "enableAllProjectMcpServers": false
+}
